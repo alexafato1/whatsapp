@@ -1,13 +1,13 @@
 import React from 'react';
-
+import Sidebar from './Sidebar'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WORLD</h1>
+      
       <div className="app_body">
-         {/* Sidebar */}
+         <Sidebar/>
          {/* Chat */}
       </div>
     </div>
