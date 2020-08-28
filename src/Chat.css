@@ -11,7 +11,7 @@
    padding: 20px;
    align-items: center;
    background-color:#201630;
-   border-bottom: 1px solid #382247;
+   
 }
 
 .chat_headerRight > .MuiSvgIcon-root {
@@ -32,6 +32,34 @@
   color: rgb(148, 145, 145) 
 }
 
+.chat_message {
+   position: relative;
+   font-size: 1rem;
+   padding: 0.5em;
+   background-color: #adcae6;
+   border-radius: 10px;
+   width: fit-content;
+   margin-bottom: 1em;
+}
+
+.chat_name {
+   position: absolute ;
+   top: -1.2em;
+   left: 0;
+   color:white;
+   font-weight: bold;
+}
+
+.chat_reciever{
+   margin-left: auto;
+   background-color: thistle;
+}
+
+.chat_timestamp{
+   font-size: 0.7em;
+   padding-left: 0.5em ;
+}
+
 .chat_headerRight  {
    display: flex;
    justify-content: space-between;
@@ -40,14 +68,40 @@
 
 .chat_body{
    flex:1;
-   
-   background-image: url("./img/530.jpg");
-  
-   padding: 20px;
+   background-image: url("./img/530.png") ;
+   background-size: cover;
+   padding: 2em;
    overflow: scroll;
 }
 .chat_body .chat_message{
-   
-   color: white;
+   color:black;
    
 } 
+
+.chat_footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5em;
+}
+
+.chat_footer > .MuiSvgIcon-root{
+  color: #AC9FD7;
+}
+
+.chat_footer>form{
+   flex:1;
+   display: flex;
+   padding:  0.2em;
+}
+.chat_footer>form>input{
+   flex:1;
+   display: flex;
+   border: none;
+   border-radius: 0.5em;
+   padding:  0.5em;
+}
+.chat_footer>form>button{
+   display: none;
+  
+}
