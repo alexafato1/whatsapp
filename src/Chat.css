@@ -39,7 +39,7 @@
    background-color: #adcae6;
    border-radius: 10px;
    width: fit-content;
-   margin-bottom: 1em;
+   margin-bottom: 2em;
 }
 
 .chat_name {
@@ -72,6 +72,7 @@
    background-size: cover;
    padding: 2em;
    overflow: scroll;
+   
 }
 .chat_body .chat_message{
    color:black;
